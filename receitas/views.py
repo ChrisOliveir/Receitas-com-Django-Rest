@@ -5,7 +5,7 @@ from rest_framework.response import Response
 from .models import Receitas
 from .serializers import ReceitasSerializer
 
-class Receitas(APIView):
+class ReceitasAPIView(APIView):
     """
     API de receitas 
     """
